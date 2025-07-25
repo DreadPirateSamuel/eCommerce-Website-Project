@@ -129,5 +129,3 @@ The advanced feature is a personalized discount system:
 - **Implementation**: The `update_discounts` function (`app.py`, lines 213–241) uses `GROUP BY` to rank categories and `DELETE`/`INSERT` to update discounts.
 - **Example**: Jane Doe with 5 Electronics, 5 Clothing, 3 Books purchases gets 15% off Electronics and 10% off Clothing after 10 total purchases.
 - **Uniqueness**: Unlike static coupon systems, discounts are dynamic, category-specific, and automatically updated after purchases.
-
-## Testing
